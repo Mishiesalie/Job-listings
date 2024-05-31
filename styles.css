@@ -179,3 +179,33 @@ img{
 .filtered{
 	display:none;
 }
+
+/* media querries */
+@media(min-width:1000px){
+	
+	header{
+	background-image:url("images/bg-header-desktop.svg");
+}
+	.col-left{
+		flex-grow:2;
+		margin-left:2rem;
+	}
+	.card{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	img{
+		display:inline-block;
+		margin-top:0;
+	}
+	.job-details{
+		border:none;
+	}
+	#search-field{	
+		height:4rem;	
+	}
+	.filtered{
+	display:none;
+}
+}
