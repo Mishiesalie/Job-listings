@@ -209,3 +209,10 @@ img{
 	display:none;
   }
 }
+.attribution { font-size: 11px; 
+	text-align: center;
+	color: hsl(228, 45%, 44%);
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
