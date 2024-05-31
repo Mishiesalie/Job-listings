@@ -185,7 +185,7 @@ img{
 	
 	header{
 	background-image:url("images/bg-header-desktop.svg");
-}
+  }
 	.col-left{
 		flex-grow:2;
 		margin-left:2rem;
@@ -207,5 +207,5 @@ img{
 	}
 	.filtered{
 	display:none;
-}
+  }
 }
