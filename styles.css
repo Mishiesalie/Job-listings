@@ -154,3 +154,28 @@ img{
 	padding-right:.5em;
 }
 
+/*skills*/
+
+.skills{
+	margin-top:1rem;
+}
+.role, .level, .languages, .tools{
+	color:hsl(180, 29%, 50%);
+	background-color:hsla(180, 28.6%, 50%, 0.12);
+	font-size:.8rem;
+	font-weight:700;
+	display:inline-block;
+	margin-right:1rem;
+	margin-bottom:1rem;
+	padding:.6rem .7rem;
+	border-radius:10px;
+	cursor:pointer;
+	transition:all 300ms ease-in-out;
+}
+.role:hover, .level:hover, .languages:hover, .tools:hover{
+	color:hsl(180, 31%, 95%);
+	background-color:hsl(180, 29%, 50%);
+}
+.filtered{
+	display:none;
+}
